@@ -91,7 +91,7 @@ body {
 .particle{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* 
 ---- particles.js container ---- */ #particles-js{ position:fixed; width: 100%; height: 100%; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } 
 /* ---- stats.js ---- */ .count-particles{ background: #000000; position: fixed; top: 4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 0em; } #stats, 
-.count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+.count-particles{ margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
 
 hr {
   margin: 1rem 0;
