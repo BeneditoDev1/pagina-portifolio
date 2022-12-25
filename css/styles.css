@@ -11438,3 +11438,13 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+@media (max-width: 833px){
+  #image{
+    width: 500px;
+  }
+}
+@media (max-width: 530px){
+  #image{
+    width: 300px;
+  }
+}
