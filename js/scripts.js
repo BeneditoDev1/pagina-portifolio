@@ -1,44 +1,56 @@
-/*!
-* Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
-
-
-window.addEventListener('DOMContentLoaded', event => {
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const sideNav = document.body.querySelector('#sideNav');
+document.addEventListener("DOMContentLoaded", function () {
+    const sideNav = document.querySelector("#sideNav");
     if (sideNav) {
         new bootstrap.ScrollSpy(document.body, {
-            target: '#sideNav',
+            target: "#sideNav",
             offset: 74,
         });
-    };
+    }
 
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {    
-                navbarToggler.click();
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    if (navbarToggler) {
+        const responsiveNavItems = document.querySelectorAll("#navbarResponsive .nav-link");
+        responsiveNavItems.forEach((item) => {
+            item.addEventListener("click", () => {
+                if (window.getComputedStyle(navbarToggler).display !== "none") {
+                    navbarToggler.click();
+                }
+            });
+        });
+    }
+
+    const btnTopo = document.getElementById("btnTopo");
+    if (btnTopo) {
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 300) {
+                btnTopo.style.display = "block";
+            } else {
+                btnTopo.style.display = "none";
             }
         });
-    });
 
+        btnTopo.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    }
+
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    function highlightMenu() {
+        let scrollPos = window.scrollY + 100;
+
+        sections.forEach((section) => {
+            let id = section.getAttribute("id");
+            let navItem = document.querySelector(`.nav-link[href="#${id}"]`);
+
+            if (navItem && section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
+                navLinks.forEach((link) => link.classList.remove("active"));
+                navItem.classList.add("active");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", highlightMenu);
+    highlightMenu();
 });
-particlesJS("particles-js", {"particles":{"number":{"value":20,"density":{"enable":true,"value_area":800}},"color":{"value":"#f2eded"},"shape":{"type":"circle","stroke":{"width":0,"color":"#7F7F7F"},
-"polygon":{"nb_sides":7},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.12626362266116362,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},
-"size":{"value":140.29855532573325,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#fffcfc","opacity":0.4,"width":1},"move":
-{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":true,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"window","events":
-{"onhover":{"enable":true,"mode":"repulse"},onclick:{"enable":false},/*"onclick":{"enable":false,"mode":"remove"},*/"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"circle":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},
-"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); /*stats.domElement.style.position = 'none'; 
-stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles')*/; update = function() { stats.begin(); stats.end(); 
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
