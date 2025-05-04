@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const navbarToggler = document.querySelector(".navbar-toggler");
-    if (navbarToggler) {
-        const responsiveNavItems = document.querySelectorAll("#navbarResponsive .nav-link");
+    const responsiveNavItems = document.querySelectorAll("#navbarResponsive .nav-link");
+    if (navbarToggler && responsiveNavItems.length) {
         responsiveNavItems.forEach((item) => {
             item.addEventListener("click", () => {
                 if (window.getComputedStyle(navbarToggler).display !== "none") {
@@ -22,11 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnTopo = document.getElementById("btnTopo");
     if (btnTopo) {
         window.addEventListener("scroll", function () {
-            if (window.scrollY > 300) {
-                btnTopo.style.display = "block";
-            } else {
-                btnTopo.style.display = "none";
-            }
+            btnTopo.style.display = window.scrollY > 300 ? "block" : "none";
         });
 
         btnTopo.addEventListener("click", function () {
@@ -38,11 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".nav-link");
 
     function highlightMenu() {
-        let scrollPos = window.scrollY + 100;
+        const scrollPos = window.scrollY + 100;
 
         sections.forEach((section) => {
-            let id = section.getAttribute("id");
-            let navItem = document.querySelector(`.nav-link[href="#${id}"]`);
+            const id = section.getAttribute("id");
+            const navItem = document.querySelector(`.nav-link[href="#${id}"]`);
 
             if (navItem && section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
                 navLinks.forEach((link) => link.classList.remove("active"));
@@ -53,4 +49,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("scroll", highlightMenu);
     highlightMenu();
+
+    function setLanguage(lang) {
+        document.querySelectorAll('.lang').forEach(el => {
+            const translation = el.getAttribute('data-' + lang);
+            if (translation) {
+                el.textContent = translation;
+            }
+        });
+    }
+
+    setLanguage('pt');
+
+    window.setLanguage = setLanguage;
 });
