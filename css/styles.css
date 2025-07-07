@@ -172,6 +172,41 @@ h4, .h4 {
   }
 }
 
+/* Centraliza no mobile até 1024px */
+@media (max-width: 1024px) {
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-profile {
+    max-width: 150px;  /* Ajuste conforme necessário */
+  }
+
+  h1 {
+    text-align: center; /* Garante que o nome também fique centralizado */
+  }
+}
+
+/* No desktop (acima de 1024px), mantém o layout original */
+@media (min-width: 1025px) {
+  .img-container {
+    display: block;
+  }
+
+  .img-profile {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    text-align: left; /* Ou ajuste conforme o layout que deseja */
+  }
+}
+
 h5, .h5 {
   font-size: 1.25rem;
 }

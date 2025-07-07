@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Benedito Magalhães Desenvolvedor</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        
+
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,446 +22,514 @@
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" />
 
-    </head>
-    <body id="page-top" style="background: particle; position: sticky;">
+</head>
 
-        <div class="language-switcher text-center my-2">
-            <button onclick="setLanguage('pt')" class="btn btn-secondary btn-sm">
-                <img src="https://flagcdn.com/w20/br.png" alt="Bandeira Brasil" style="margin-right: 5px;"> Português
-            </button>
-            <button onclick="setLanguage('en')" class="btn btn-secondary btn-sm">
-                <img src="https://flagcdn.com/w20/us.png" alt="USA Flag" style="margin-right: 5px;"> English
-            </button>
-        </div>        
+<body id="page-top" style="background: particle; position: sticky;">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Benedito Magalhães</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars.githubusercontent.com/u/91962241?v=4" alt="me" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="language-switcher text-center my-2">
+        <button onclick="setLanguage('pt')" class="btn btn-secondary btn-sm">
+            <img src="https://flagcdn.com/w20/br.png" alt="Bandeira Brasil" style="margin-right: 5px;"> Português
+        </button>
+        <button onclick="setLanguage('en')" class="btn btn-secondary btn-sm">
+            <img src="https://flagcdn.com/w20/us.png" alt="USA Flag" style="margin-right: 5px;"> English
+        </button>
+    </div>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#about" data-en="About" data-pt="Sobre">Sobre</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Benedito Magalhães</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="https://avatars.githubusercontent.com/u/91962241?v=4" alt="me" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#about" data-en="About" data-pt="Sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#experience" data-en="Experience"
+                        data-pt="Experiência">Experiência</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#education" data-en="Education"
+                        data-pt="Educação">Educação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#skills" data-en="Skills"
+                        data-pt="Habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#interests" data-en="interests"
+                        data-pt="Interesses">Interesses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#awards" data-en="Awards"
+                        data-pt="Certificados">Certificados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#projects" data-en="Projects"
+                        data-pt="Projetos">Projetos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+
+                <div class="d-block d-lg-none text-center mb-4">
+                    <img id="profileImage" src="https://avatars.githubusercontent.com/u/91962241?v=4"
+                        alt="Benedito Magalhães" class="img-fluid rounded-circle" style="max-width: 150px;" />
+                </div>
+
+                <h1 class="mb-0">
+                    <p>Benedito
+                        <span class="text-light">Magalhães</span>
+                    </p>
+                </h1>
+                <div class="subheading mb-5" style="color: white;">
+                    Campo Grande, MS · (67) 98119-8250 ·
+                    <a href="mailto:bencaceres1799@gmail.com" class="text-light" style="position: sticky;"
+                        rel="noopener noreferrer">bencaceres1799@gmail.com</a>
+                </div>
+                <p class="lead mb-5 lang"
+                    data-pt="Olá, sou Benedito Magalhães, um entusiasta de tecnologia de {IDADE} anos, com experiência em desenvolvimento de sistemas e suporte técnico. Seja bem-vindo ao meu universo, onde você poderá conhecer minha trajetória e minhas experiências profissionais. Espero que goste do meu perfil e fique à vontade para entrar em contato comigo, via e-mail ou LinkedIn."
+                    data-en="Hello, I am Benedito Magalhães, a {IDADE}-year-old technology enthusiast with experience in systems development and technical support. Welcome to my world, where you can learn about my journey and professional experiences. I hope you enjoy my profile and feel free to contact me via email or LinkedIn.">
+                </p>
+
+                <div class="social-icons" style="position: sticky;">
+                    <a class="social-icon" href="https://www.linkedin.com/in/benedito-magalhães-1a700821b/"
+                        target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/BeneditoDev1" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5 lang" data-pt="Experiência" data-en="Experience">Experiência</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 lang" data-pt="Desenvolvedor Full Stack Jr" data-en="Full Stack Developer">
+                            Desenvolvedor Full Stack Jr
+                        </h3>
+                        <div class="subheading mb-3">Milliontech Sistemas</div>
+                        <p class="lang"
+                            data-pt="Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados PostgreSQL."
+                            data-en="I was responsible for the development and implementation of new features in the system, performing bug fixes, support, and testing in the ERP system. I used the JavaScript and TypeScript programming languages, along with React, the Node.js runtime environment, and the PostgreSQL database.">
+                            Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando
+                            correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação
+                            JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados
+                            PostgreSQL.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2024 - Apr
+                            2025</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 lang" data-pt="Tecnico em Suporte e Sistemas" data-en="IT Support">
+                            >Tecnico em Suporte e Sistemas</h3>
+                        <div class="subheading mb-3">Inovvati Tecnologia</div>
+                        <p class="lang"
+                            data-pt="Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos clientes em diferentes situações."
+                            data-en="I was responsible for providing technical support to clients through phone, chat, and email at Inovvati Tecnologia. I created tickets in the ITSM software, provided follow-up, and monitored the progress of the tickets until resolution. Additionally, I supported systems and procedures to ensure operational processes were fully functional. My experience at this company allowed me to develop my communication and problem-solving skills, providing effective support to clients in different situations.">
+                            Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via
+                            telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço
+                            devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço
+                            suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em
+                            pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas
+                            habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos
+                            clientes em diferentes situações.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Jan 2023 - Sep
+                            2024</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 lang" data-pt="Estagio em Suporte Técnico" data-en="IT Support intership">
+                            Estagio em Suporte Técnico</h3>
+                        <div class="subheading mb-3">Macal Soluções em Agro</div>
+                        <p class="lang"
+                            data-pt="Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes para os desafios técnicos enfrentados."
+                            data-en="I worked as an IT professional providing technical support to users and performing computer maintenance. I also handled tickets, assisted in building infrastructure, and developed the company intranet using the Joomla 4 platform. My experience at this company allowed me to improve my technical and communication skills, working closely with the team and providing effective solutions to technical challenges.">
+                            Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando
+                            manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de
+                            infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha
+                            experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de
+                            comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes
+                            para os desafios técnicos enfrentados.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2022 - Jan
+                            2023</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 lang" data-pt="Desenvolvedor Full Stack Jr" data-en="Full Stack Developer">
+                            Desenvolvedor Full Stack Jr</h3>
+                        <div class="subheading mb-3 lang" data-pt="Me pergunte" data-en="Ask me">Me pergunte</div>
+                        <p class="lang"
+                            data-pt="Atuei como desenvolver auxiliando em aplicações Web utilizando C# .Net MVC Core e Entity framework, desenvolvimento e suporte em aplicações JavaScript, automação de processos utilizando Python e sua biblioteca Selenium, automação de processos através de métodos ágeis e manutenção e suporte de computadores."
+                            data-en="I worked as a developer assisting in web applications using C# .Net MVC Core and Entity Framework, development and support in JavaScript applications, process automation using Python and its Selenium library, automation of processes through agile methods, and maintenance and support of computers.">
+                            Atuei como desenvolver auxiliando em aplicações Web utilizando C# .Net MVC Core e Entity
+                            framework, desenvolvimento e suporte em aplicações JavaScript, automação de processos
+                            utilizando Python e sua biblioteca Selenium, automação de processos através de métodos ágeis
+                            e manutenção e suporte de computadores.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Feb 2022 - Apr
+                            2022</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5 lang" data-en="Education" data-pt="Educação">Educação</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Instituto Federal do Mato Grosso do Sul</h3>
+                        <div class="subheading mb-3 lang" data-en="IT Technologist" data-pt="Tecnologo em TI">Tecnologo
+                            em TI</div>
+                        <div>
+                            <h3 style="color: white" class="lang" data-en="Web Development"
+                                data-pt="Tecnologia em Sistemas para Internet">Tecnologia em Sistemas para Internet</h3>
+                        </div>
+                        <p class="lang"
+                            data-pt="Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software. Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua."
+                            data-en="System Development, Web and Android Systems, SQL and PLSQL Databases, Computer Networks and Infrastructure, Operating Systems, Information Security, Administrative Topics, Scientific Methodology, Digital Logic, Brazilian Sign Language (Libras), and Software Engineering. Additionally, we learned about Interface Design, Software Architecture, Cloud Computing, Artificial Intelligence, Development Frameworks, and Mobile Application Development, as well as agile development practices and continuous integration.">
+                            Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de
+                            Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos
+                            Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software.
+                            Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em
+                            Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de
+                            Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 "><span class="text-light"><i class="fas fa-trophy text-warning"
+                                style="font-weight: bold;"></i> Ago 2021 - Fev 2025</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section text-light" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5 lang" data-en="Skills" data-pt="Habilidades">Habilidades</h2>
+                <div class="subheading mb-3 lang" data-en="Programming languages ​​and tools"
+                    data-pt="Linguagens de programação e Ferramentas">Linguagens de programação e Ferramentas</div>
+                <ul class="list-inline dev-icons" style="position: sticky;">
+                    <li class="list-inline-item"><img alt="B-ts" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></i>
+                    <li class="list-inline-item"><img alt="B-React" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></i>
+                    <li class="list-inline-item"><img alt="B-java" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /></i>
+                    <li class="list-inline-item"><img alt="B-Spring" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" /></i>
+                    <li class="list-inline-item"><img alt="B-PHP" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"></li>
+                    <li class="list-inline-item"><img alt="B-Laravel" height="70" width="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#experience" data-en="Experience" data-pt="Experiência">Experiência</a>
-                    </li>                      
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#education" data-en="Education" data-pt="Educação">Educação</a>
+                    <li class="list-inline-item"><img alt="B-html" height="70" widht="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></li>
+                    <li class="list-inline-item"><img alt="B-css" height="70" widht="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></li>
+                    <li class="list-inline-item"><img alt="git" height="70" widht="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /></li>
+                    <li class="list-inline-item"><img style="background-color: white;" alt="github" height="70"
+                            widht="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#skills" data-en="Skills" data-pt="Habilidades">Habilidades</a>
+                    <li class="list-inline-item"><img alt="gitlab" height="70" widht="90"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" /></li>
+                </ul>
+                <div class="subheading mb-3 lang" ~ data-en="Others" data-pt="Outras Habilidades">Outras Habilidades
+                </div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Web API
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#interests" data-en="interests" data-pt="Interesses">Interesses</a>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="lang" data-en="Responsive design" data-pt="Design Responsivo">Design
+                            Responsivo</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#awards" data-en="Awards" data-pt="Certificados">Certificados</a>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        CRUD MVC
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger lang" href="#projects" data-en="Projects" data-pt="Projetos">Projetos</a>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        CRUD API
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="lang" data-en="Agile methodologies" data-pt="Metodologias ágeis">Metodologias
+                            ágeis</span>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="lang" data-en="Intermediate English (B1)" data-pt="Inglês intermediário B1">Inglês
+                            intermediário B1</span>
                     </li>
                 </ul>
             </div>
-        </nav>
-        
-        <div class="container-fluid p-0">
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        <p>Benedito
-                        <span class="text-light">Magalhães</span></p>
-                    </h1>
-                    <div class="subheading mb-5" style="color: white;">
-                        Campo Grande, MS · (67) 98119-8250 ·
-                        <a href="mailto:bencaceres1799@gmail.com" class="text-light" style="position: sticky;" rel="noopener noreferrer">bencaceres1799@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5 lang"
-                        data-pt="Olá, sou Benedito Magalhães, um entusiasta de tecnologia de {IDADE} anos, com experiência em desenvolvimento de sistemas e suporte técnico. Seja bem-vindo ao meu universo, onde você poderá conhecer minha trajetória e minhas experiências profissionais. Espero que goste do meu perfil e fique à vontade para entrar em contato comigo, via e-mail ou LinkedIn."
-                        data-en="Hello, I am Benedito Magalhães, a {IDADE}-year-old technology enthusiast with experience in systems development and technical support. Welcome to my world, where you can learn about my journey and professional experiences. I hope you enjoy my profile and feel free to contact me via email or LinkedIn.">
-                    </p>
-
-                    <div class="social-icons" style="position: sticky;">
-                        <a class="social-icon" href="https://www.linkedin.com/in/benedito-magalhães-1a700821b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" ></i></a>
-                        <a class="social-icon" href="https://github.com/BeneditoDev1" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 lang" data-pt="Experiência" data-en="Experience">Experiência</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 lang"
-                            data-pt="Desenvolvedor Full Stack Jr"
-                            data-en="Full Stack Developer">
-                            Desenvolvedor Full Stack Jr
-                        </h3>
-                            <div class="subheading mb-3">Milliontech Sistemas</div>
-                            <p class="lang"
-                            data-pt="Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados PostgreSQL."
-                            data-en="I was responsible for the development and implementation of new features in the system, performing bug fixes, support, and testing in the ERP system. I used the JavaScript and TypeScript programming languages, along with React, the Node.js runtime environment, and the PostgreSQL database.">
-                            Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados PostgreSQL.
-                        </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2024 - Apr 2025</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 lang"
-                            data-pt="Tecnico em Suporte e Sistemas"
-                            data-en="IT Support">
-                            >Tecnico em Suporte e Sistemas</h3>
-                            <div class="subheading mb-3">Inovvati Tecnologia</div>
-                            <p class="lang"
-                            data-pt="Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos clientes em diferentes situações."
-                            data-en="I was responsible for providing technical support to clients through phone, chat, and email at Inovvati Tecnologia. I created tickets in the ITSM software, provided follow-up, and monitored the progress of the tickets until resolution. Additionally, I supported systems and procedures to ensure operational processes were fully functional. My experience at this company allowed me to develop my communication and problem-solving skills, providing effective support to clients in different situations.">
-                            Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos clientes em diferentes situações.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Jan 2023 - Sep 2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 lang"
-                            data-pt="Estagio em Suporte Técnico"
-                            data-en="IT Support intership"
-                            >Estagio em Suporte Técnico</h3>
-                            <div class="subheading mb-3">Macal Soluções em Agro</div>
-                            <p class="lang"
-                            data-pt="Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes para os desafios técnicos enfrentados."
-                            data-en="I worked as an IT professional providing technical support to users and performing computer maintenance. I also handled tickets, assisted in building infrastructure, and developed the company intranet using the Joomla 4 platform. My experience at this company allowed me to improve my technical and communication skills, working closely with the team and providing effective solutions to technical challenges.">
-                            Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes para os desafios técnicos enfrentados.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2022 - Jan 2023</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 lang"
-                            data-pt="Desenvolvedor Full Stack Jr"
-                            data-en="Full Stack Developer"
-                            >Desenvolvedor Full Stack Jr</h3>
-                            <div class="subheading mb-3 lang"
-                            data-pt="Me pergunte"
-                            data-en="Ask me"
-                            >Me pergunte</div>
-                            <p class="lang"
-                            data-pt="Atuei como desenvolver auxiliando em aplicações Web utilizando C# .Net MVC Core e Entity framework, desenvolvimento e suporte em aplicações JavaScript, automação de processos utilizando Python e sua biblioteca Selenium, automação de processos através de métodos ágeis e manutenção e suporte de computadores."
-                            data-en="I worked as a developer assisting in web applications using C# .Net MVC Core and Entity Framework, development and support in JavaScript applications, process automation using Python and its Selenium library, automation of processes through agile methods, and maintenance and support of computers.">
-                            Atuei como desenvolver auxiliando em aplicações Web utilizando C# .Net MVC Core e Entity framework, desenvolvimento e suporte em aplicações JavaScript, automação de processos utilizando Python e sua biblioteca Selenium, automação de processos através de métodos ágeis e manutenção e suporte de computadores.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Feb 2022 - Apr 2022</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 lang"
-                    data-en="Education" 
-                    data-pt="Educação"
-                    >Educação</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Instituto Federal do Mato Grosso do Sul</h3>
-                            <div class="subheading mb-3 lang"
-                            data-en="IT Technologist" 
-                            data-pt="Tecnologo em TI"
-                            >Tecnologo em TI</div>
-                            <div><h3 style="color: white" class="lang"
-                            data-en="Web Development" 
-                            data-pt="Tecnologia em Sistemas para Internet"
-                            >Tecnologia em Sistemas para Internet</h3></div>
-                            <p class="lang"
-                            data-pt="Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software. Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua."
-                            data-en="System Development, Web and Android Systems, SQL and PLSQL Databases, Computer Networks and Infrastructure, Operating Systems, Information Security, Administrative Topics, Scientific Methodology, Digital Logic, Brazilian Sign Language (Libras), and Software Engineering. Additionally, we learned about Interface Design, Software Architecture, Cloud Computing, Artificial Intelligence, Development Frameworks, and Mobile Application Development, as well as agile development practices and continuous integration.">
-                            Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software. Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0 "><span class="text-light"><i class="fas fa-trophy text-warning" style="font-weight: bold;"></i> Ago 2021 - Fev 2025</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section text-light" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 lang"
-                    data-en="Skills" 
-                    data-pt="Habilidades"
-                    >Habilidades</h2>
-                    <div class="subheading mb-3 lang"
-                    data-en="Programming languages ​​and tools" 
-                    data-pt="Linguagens de programação e Ferramentas"
-                    >Linguagens de programação e Ferramentas</div>
-                    <ul class="list-inline dev-icons" style="position: sticky;">
-                        <li class="list-inline-item"><img alt="B-ts" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/></i>
-                        <li class="list-inline-item"><img alt="B-React" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/></i>
-                        <li class="list-inline-item"><img alt="B-java" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/></i>
-                        <li class="list-inline-item"><img alt="B-Spring" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"/></i>
-                        <li class="list-inline-item"><img alt="B-PHP" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"></li>
-                        <li class="list-inline-item"><img alt="B-Laravel" height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"/></li>
-                        <li class="list-inline-item"><img alt="B-html" height="70" widht="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></li>
-                        <li class="list-inline-item"><img alt="B-css" height="70" widht="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></li>
-                        <li class="list-inline-item"><img alt="git" height="70" widht="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /></li>
-                        <li class="list-inline-item"><img style="background-color: white;" alt="github" height="70" widht="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /></li>
-                        <li class="list-inline-item"><img alt="gitlab" height="70" widht="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" /></li>
-                    </ul>
-                    <div class="subheading mb-3 lang"~
-                    data-en="Others" 
-                    data-pt="Outras Habilidades"
-                    >Outras Habilidades</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Web API
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <span class="lang" data-en="Responsive design" data-pt="Design Responsivo">Design Responsivo</span>
-                        </li>                        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            CRUD MVC
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            CRUD API
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <span class="lang" data-en="Agile methodologies" data-pt="Metodologias ágeis">Metodologias ágeis</span>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <span class="lang" data-en="Intermediate English (B1)" data-pt="Inglês intermediário B1">Inglês intermediário B1</span>
-                        </li>                        
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 lang"
-                    data-en="Interests" 
-                    data-pt="Interesses"
-                    >Interesses</h2>
-                    <p class="lang"
-                    data-pt="Sou um desenvolvedor em formação, apaixonado por tecnologia desde os 11 anos, sempre em busca de aprender, evoluir e encontrar as melhores soluções para problemas reais. Tenho grande interesse em me desenvolver profissional e academicamente, e estou constantemente buscando novos desafios e oportunidades que me permitam aplicar meus conhecimentos, adquirir novas habilidades e crescer dentro da área de TI."
-                    data-en="I am a developing professional passionate about technology since I was 11 years old, always seeking to learn, grow, and find the best solutions to real-world problems. I have a strong interest in developing myself both professionally and academically, and I am constantly looking for new challenges and opportunities to apply my knowledge, gain new skills, and grow within the IT field.">
-                    Sou um desenvolvedor em formação, apaixonado por tecnologia desde os 11 anos, sempre em busca de aprender, evoluir e encontrar as melhores soluções para problemas reais. Tenho grande interesse em me desenvolver profissional e academicamente, e estou constantemente buscando novos desafios e oportunidades que me permitam aplicar meus conhecimentos, adquirir novas habilidades e crescer dentro da área de TI.
-                    </p>
-                    <img id="image" style = "position: sticky;" src="https://i.pinimg.com/originals/ee/17/07/ee17070ff6e54542f66fc088dea78415.png" alt="ging freecs">
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 lang"
-                    data-en="Awards" 
-                    data-pt="Certificados"
-                    >Certificados</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://www.udemy.com/certificate/UC-20f8341b-8b35-437c-a7c9-da9a1cd26205/" target="_blank" class="text-light lang"
-                               data-en="Learn Laravel 10 with 100% practical approach - Udemy"
-                               data-pt="Aprenda Laravel 10 de forma 100% prática - Udemy">
-                               Aprenda Laravel 10 de forma 100% prática - Udemy
-                            </a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://www.udemy.com/certificate/UC-621eae30-196d-442c-9694-8f277e21cf64/" target="_blank" class="text-light lang"
-                               data-en="Amazon AWS Cloud Practitioner Certification (CLF-C01) - Udemy"
-                               data-pt="Certificação Amazon AWS Cloud Practitioner (CLF-C01) - Udemy">
-                               Certificação Amazon AWS Cloud Practitioner (CLF-C01) - Udemy
-                            </a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://www.udemy.com/certificate/UC-b5873313-4d1d-44b1-ad61-aaa44a2055ec/" target="_blank" class="text-light lang"
-                               data-en="PHP from Zero to Mastery + 4 Amazing Projects - Udemy"
-                               data-pt="PHP do Zero a Maestria + 4 Projetos incríveis - Udemy">
-                               PHP do Zero a Maestria + 4 Projetos incríveis - Udemy
-                            </a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://drive.google.com/file/d/1jA9Cf_GQbMWaCvMrWKi-rJdrrZjxq6ZV/view?usp=sharing" target="_blank" class="text-light lang"
-                               data-en="Introduction to MySQL Database - Alfahelix"
-                               data-pt="Introdução ao Banco de dados MYSQl - Alfahelix">
-                               Introdução ao Banco de dados MYSQl - Alfahelix
-                            </a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://drive.google.com/file/d/1phjE80aR5CFg2gtcNVBqSHROUV7GWVm7/view?usp=sharing" target="_blank" class="text-light lang"
-                               data-en="Introduction to Object-Oriented PHP - Alfahelix"
-                               data-pt="Introdução a PHP Orientado a Objetos - Alfahelix">
-                               Introdução a PHP Orientado a Objetos - Alfahelix
-                            </a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://drive.google.com/file/d/1cLQuXsloh213AME1ewyMbIxPBs-bpQCj/view?usp=sharing" target="_blank" class="text-light lang"
-                               data-en="Object-Oriented Programming with C# and its Frameworks - Udemy"
-                               data-pt="Programação Orientada a Objeto com C# e suas frameworks - Udemy">
-                               Programação Orientada a Objeto com C# e suas frameworks - Udemy
-                            </a>
-                        </li>                                            
-                    </ul>
-                </div>
-            </section>
-        </div>
+        </section>
         <hr class="m-0" />
-        <section class="resume-section" id="projects">
+        <section class="resume-section" id="interests">
             <div class="resume-section-content">
-                <h2 class="mb-5">Projetos</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://tm.ibxk.com.br/2021/08/25/25005108362009.jpg" class="card-img-top" alt="Imagem do Projeto TCC - SGAC" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="SGAC (Complementary Activities Management System)" data-pt="SGAC(Sistema de Gerenciamento de Atividades Complementares)">
-                                        SGAC(Sistema de Gerenciamento de Atividades Complementares)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="System developed for the TCC of the higher education course in Internet Systems" data-pt="Sistema desenvolvido para TCC do ensino superior de Tecnologia em Sistemas Para Internet">
-                                        Sistema desenvolvido para TCC do ensino superior de Tecnologia em Sistemas Para Internet
-                                    </span>
-                                </p>
-                                <a href="https://github.com/BeneditoDev1/SGAC-TCC" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://tm.ibxk.com.br/2021/08/25/25005108362009.jpg" class="card-img-top" alt="Imagem do Projeto Escola Laravel" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="Escola Laravel (PHP, Laravel and Bootstrap)" data-pt="Escola Laravel (PHP, Laravel e Bootstrap)">
-                                        Escola Laravel (PHP, Laravel e Bootstrap)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="CRUD system for student and class management" data-pt="Sistema desenvolvido CRUD, para gestão de alunos e turmas">
-                                        Sistema desenvolvido CRUD, para gestão de alunos e turmas
-                                    </span>
-                                </p>
-                                <a href="https://github.com/BeneditoDev1/escolaLaravel" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top" alt="Imagem do Projeto Agenda PHP" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="Agenda Project (PHP, Html and CSS)" data-pt="Projeto Agenda (PHP, Html e CSS)">
-                                        Projeto Agenda (PHP, Html e CSS)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="A simple agenda application in PHP" data-pt="Uma aplicação de agenda simples em PHP">
-                                        Uma aplicação de agenda simples em PHP
-                                    </span>
-                                </p>
-                                <a href="https://github.com/BeneditoDev1/Agenda_PHP" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top" alt="Imagem do Projeto Blog PHP" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="Blog Project (PHP, Html and CSS)" data-pt="Projeto Blog (PHP, Html e CSS)">
-                                        Projeto Blog (PHP, Html e CSS)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="Simple blog system in PHP" data-pt="Sistema de blog simples em PHP">
-                                        Sistema de blog simples em PHP
-                                    </span>
-                                </p>
-                                <a href="https://github.com/BeneditoDev1/Projeto_blog" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top" alt="Imagem do Projeto CadAlunos" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="CadAlunos (PHP, MYSQL and Jquery)" data-pt="CadAlunos (PHP, MYSQL e Jquery)">
-                                        CadAlunos (PHP, MYSQL e Jquery)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="System to register students using PHP, MySQL and Jquery" data-pt="Sistema para cadastrar alunos com PHP, MySQL e Jquery">
-                                        Sistema para cadastrar alunos com PHP, MySQL e Jquery
-                                    </span>
-                                </p>
-                                <a href="https://github.com/BeneditoDev1/CadAlunos" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInex0VJhK3csIVXwrSDO7M-k77ZFg_evECg&s" class="card-img-top" alt="Imagem do Projeto SalesMVC" style="width: 100%; height: 50%;">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <span class="lang" data-en="SalesMVC Project (C# and .Net)" data-pt="Projeto SalesMVC (C# e .Net)">
-                                        Projeto SalesMVC (C# e .Net)
-                                    </span>
-                                </h5>
-                                <p class="card-text" style="color: black;">
-                                    <span class="lang" data-en="Sales system using MVC pattern with C# and .Net" data-pt="Sistema de vendas utilizando o padrão MVC com C# e .Net">
-                                        Sistema de vendas utilizando o padrão MVC com C# e .Net
-                                    </span>
-                                </p>
-                                <a href="https://github.com/Bencx1/SalesMVC/tree/master" target="_blank" rel="noopener noreferrer" class="btn btn-primary lang"
-                                   data-en="View on GitHub" data-pt="Ver no GitHub">
-                                    Ver no GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-                <button id="btnTopo" class="btn btn-primary" style="background-color: white;">↑</button>
+                <h2 class="mb-5 lang" data-en="Interests" data-pt="Interesses">Interesses</h2>
+                <p class="lang"
+                    data-pt="Sou um desenvolvedor formado, apaixonado por tecnologia desde os 11 anos, sempre em busca de aprender, evoluir e encontrar as melhores soluções para problemas reais. Tenho grande interesse em novs técnologias para o desenvolvimento de software atual, possuo interesse em inteligência artificial, possuo conhecimento em desenvolvimento de sites com Wordpress, também possuo conhecimento em Power BI para analises de dados."
+                    data-en="I am a graduate developer, passionate about technology since the age of 11, always seeking to learn, grow, and find the best solutions to real-world problems. I have a strong interest in new technologies for modern software development, as well as a keen interest in artificial intelligence. I have experience in website development using WordPress and also have knowledge in Power BI for data analysis.">
+                    Sou um desenvolvedor formado, apaixonado por tecnologia desde os 11 anos, sempre em busca de
+                    aprender, evoluir e encontrar as melhores soluções para problemas reais. Tenho grande interesse em
+                    novs técnologias para o desenvolvimento de software atual, possuo interesse em inteligência
+                    artificial, possuo conhecimento em desenvolvimento de sites com Wordpress, também possuo
+                    conhecimento em Power BI para analises de dados.
+                </p>
             </div>
-        </section>        
-        <footer style="text-align: right;">&copy;Benedito Magalhães - 2022</footer>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content">
+                <h2 class="mb-5 lang" data-en="Awards" data-pt="Certificados">Certificados</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://www.udemy.com/certificate/UC-20f8341b-8b35-437c-a7c9-da9a1cd26205/"
+                            target="_blank" class="text-light lang"
+                            data-en="Learn Laravel 10 with 100% practical approach - Udemy"
+                            data-pt="Aprenda Laravel 10 de forma 100% prática - Udemy">
+                            Aprenda Laravel 10 de forma 100% prática - Udemy
+                        </a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://www.udemy.com/certificate/UC-621eae30-196d-442c-9694-8f277e21cf64/"
+                            target="_blank" class="text-light lang"
+                            data-en="Amazon AWS Cloud Practitioner Certification (CLF-C01) - Udemy"
+                            data-pt="Certificação Amazon AWS Cloud Practitioner (CLF-C01) - Udemy">
+                            Certificação Amazon AWS Cloud Practitioner (CLF-C01) - Udemy
+                        </a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://www.udemy.com/certificate/UC-b5873313-4d1d-44b1-ad61-aaa44a2055ec/"
+                            target="_blank" class="text-light lang"
+                            data-en="PHP from Zero to Mastery + 4 Amazing Projects - Udemy"
+                            data-pt="PHP do Zero a Maestria + 4 Projetos incríveis - Udemy">
+                            PHP do Zero a Maestria + 4 Projetos incríveis - Udemy
+                        </a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/file/d/1jA9Cf_GQbMWaCvMrWKi-rJdrrZjxq6ZV/view?usp=sharing"
+                            target="_blank" class="text-light lang" data-en="Introduction to MySQL Database - Alfahelix"
+                            data-pt="Introdução ao Banco de dados MYSQl - Alfahelix">
+                            Introdução ao Banco de dados MYSQl - Alfahelix
+                        </a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/file/d/1phjE80aR5CFg2gtcNVBqSHROUV7GWVm7/view?usp=sharing"
+                            target="_blank" class="text-light lang"
+                            data-en="Introduction to Object-Oriented PHP - Alfahelix"
+                            data-pt="Introdução a PHP Orientado a Objetos - Alfahelix">
+                            Introdução a PHP Orientado a Objetos - Alfahelix
+                        </a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/file/d/1cLQuXsloh213AME1ewyMbIxPBs-bpQCj/view?usp=sharing"
+                            target="_blank" class="text-light lang"
+                            data-en="Object-Oriented Programming with C# and its Frameworks - Udemy"
+                            data-pt="Programação Orientada a Objeto com C# e suas frameworks - Udemy">
+                            Programação Orientada a Objeto com C# e suas frameworks - Udemy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
-    </body>
+    <hr class="m-0" />
+    <section class="resume-section" id="projects">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://tm.ibxk.com.br/2021/08/25/25005108362009.jpg" class="card-img-top"
+                            alt="Imagem do Projeto TCC - SGAC" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="SGAC (Complementary Activities Management System)"
+                                    data-pt="SGAC(Sistema de Gerenciamento de Atividades Complementares)">
+                                    SGAC(Sistema de Gerenciamento de Atividades Complementares)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang"
+                                    data-en="System developed for the TCC of the higher education course in Internet Systems"
+                                    data-pt="Sistema desenvolvido para TCC do ensino superior de Tecnologia em Sistemas Para Internet">
+                                    Sistema desenvolvido para TCC do ensino superior de Tecnologia em Sistemas Para
+                                    Internet
+                                </span>
+                            </p>
+                            <a href="https://github.com/BeneditoDev1/SGAC-TCC" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary lang" data-en="View on GitHub" data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://tm.ibxk.com.br/2021/08/25/25005108362009.jpg" class="card-img-top"
+                            alt="Imagem do Projeto Escola Laravel" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="Escola Laravel (PHP, Laravel and Bootstrap)"
+                                    data-pt="Escola Laravel (PHP, Laravel e Bootstrap)">
+                                    Escola Laravel (PHP, Laravel e Bootstrap)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang" data-en="CRUD system for student and class management"
+                                    data-pt="Sistema desenvolvido CRUD, para gestão de alunos e turmas">
+                                    Sistema desenvolvido CRUD, para gestão de alunos e turmas
+                                </span>
+                            </p>
+                            <a href="https://github.com/BeneditoDev1/escolaLaravel" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary lang" data-en="View on GitHub"
+                                data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top"
+                            alt="Imagem do Projeto Agenda PHP" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="Agenda Project (PHP, Html and CSS)"
+                                    data-pt="Projeto Agenda (PHP, Html e CSS)">
+                                    Projeto Agenda (PHP, Html e CSS)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang" data-en="A simple agenda application in PHP"
+                                    data-pt="Uma aplicação de agenda simples em PHP">
+                                    Uma aplicação de agenda simples em PHP
+                                </span>
+                            </p>
+                            <a href="https://github.com/BeneditoDev1/Agenda_PHP" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary lang" data-en="View on GitHub"
+                                data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top"
+                            alt="Imagem do Projeto Blog PHP" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="Blog Project (PHP, Html and CSS)"
+                                    data-pt="Projeto Blog (PHP, Html e CSS)">
+                                    Projeto Blog (PHP, Html e CSS)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang" data-en="Simple blog system in PHP"
+                                    data-pt="Sistema de blog simples em PHP">
+                                    Sistema de blog simples em PHP
+                                </span>
+                            </p>
+                            <a href="https://github.com/BeneditoDev1/Projeto_blog" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary lang" data-en="View on GitHub"
+                                data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Php-logo.png" class="card-img-top"
+                            alt="Imagem do Projeto CadAlunos" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="CadAlunos (PHP, MYSQL and Jquery)"
+                                    data-pt="CadAlunos (PHP, MYSQL e Jquery)">
+                                    CadAlunos (PHP, MYSQL e Jquery)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang" data-en="System to register students using PHP, MySQL and Jquery"
+                                    data-pt="Sistema para cadastrar alunos com PHP, MySQL e Jquery">
+                                    Sistema para cadastrar alunos com PHP, MySQL e Jquery
+                                </span>
+                            </p>
+                            <a href="https://github.com/BeneditoDev1/CadAlunos" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary lang" data-en="View on GitHub"
+                                data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInex0VJhK3csIVXwrSDO7M-k77ZFg_evECg&s"
+                            class="card-img-top" alt="Imagem do Projeto SalesMVC" style="width: 100%; height: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: black;">
+                                <span class="lang" data-en="SalesMVC Project (C# and .Net)"
+                                    data-pt="Projeto SalesMVC (C# e .Net)">
+                                    Projeto SalesMVC (C# e .Net)
+                                </span>
+                            </h5>
+                            <p class="card-text" style="color: black;">
+                                <span class="lang" data-en="Sales system using MVC pattern with C# and .Net"
+                                    data-pt="Sistema de vendas utilizando o padrão MVC com C# e .Net">
+                                    Sistema de vendas utilizando o padrão MVC com C# e .Net
+                                </span>
+                            </p>
+                            <a href="https://github.com/Bencx1/SalesMVC/tree/master" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary lang" data-en="View on GitHub"
+                                data-pt="Ver no GitHub">
+                                Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="btnTopo" class="btn btn-primary" style="background-color: white;">↑</button>
+        </div>
+    </section>
+    <footer style="text-align: right;">&copy;Benedito Magalhães - 2022</footer>
+    </div>
+</body>
+
 </html>
