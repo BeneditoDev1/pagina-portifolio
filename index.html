@@ -1,669 +1,683 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Benedito Magalhães Desenvolvedor</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="description" content="Portfólio profissional de Benedito Magalhães — Analista de Suporte Técnico, Cibersegurança e Infraestrutura de TI.">
+    <meta name="author" content="Benedito Magalhães">
+    <meta name="keywords" content="Benedito Magalhães, Suporte Técnico N2, Cibersegurança, Infraestrutura, Active Directory, GLPI, ITIL, LGPD, TI">
+    <meta name="theme-color" content="#212529">
+
+    <title>Benedito Magalhães | Suporte, Cibersegurança e Infraestrutura</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="js/scripts.js"></script>
-    <link href="css/styles.css" rel="stylesheet" />
-
+    <!-- Project CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body id="page-top" style="background: particle; position: sticky;">
+<body id="page-top">
 
-    <div class="language-switcher text-center my-2">
-        <button onclick="setLanguage('pt')" class="btn btn-secondary btn-sm">
-            <img src="https://flagcdn.com/w20/br.png" alt="Bandeira Brasil" style="margin-right: 5px;"> Português
+    <!-- Language switcher -->
+    <div class="language-switcher text-center py-2">
+        <button type="button" onclick="setLanguage('pt')" class="btn btn-secondary btn-sm" aria-label="Mudar idioma para Português">
+            <img src="https://flagcdn.com/w20/br.png" alt="" width="20" class="me-1">
+            Português
         </button>
-        <button onclick="setLanguage('en')" class="btn btn-secondary btn-sm">
-            <img src="https://flagcdn.com/w20/us.png" alt="USA Flag" style="margin-right: 5px;"> English
+
+        <button type="button" onclick="setLanguage('en')" class="btn btn-secondary btn-sm" aria-label="Change language to English">
+            <img src="https://flagcdn.com/w20/us.png" alt="" width="20" class="me-1">
+            English
         </button>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav" aria-label="Navegação principal">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Benedito Magalhães</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="https://avatars.githubusercontent.com/u/91962241?v=4" alt="me" /></span>
+
+            <span class="d-none d-lg-block">
+                <img
+                    class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="https://avatars.githubusercontent.com/u/91962241?v=4"
+                    alt="Benedito Magalhães"
+                >
+            </span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Abrir menu"
+        >
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger lang" href="#about" data-en="About" data-pt="Sobre">Sobre</a>
+                    <a class="nav-link js-scroll-trigger lang" href="#about"
+                       data-pt="Sobre" data-en="About">Sobre</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger lang" href="#experience" data-en="Experience"
-                        data-pt="Experiência">Experiência</a>
+                    <a class="nav-link js-scroll-trigger lang" href="#experience"
+                       data-pt="Experiência" data-en="Experience">Experiência</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger lang" href="#education" data-en="Education"
-                        data-pt="Educação">Educação</a>
+                    <a class="nav-link js-scroll-trigger lang" href="#education"
+                       data-pt="Educação" data-en="Education">Educação</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger lang" href="#skills" data-en="Skills"
-                        data-pt="Habilidades">Habilidades</a>
+                    <a class="nav-link js-scroll-trigger lang" href="#skills"
+                       data-pt="Habilidades" data-en="Skills">Habilidades</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger lang" href="#interests" data-en="interests"
-                        data-pt="Interesses">Interesses</a>
+                    <a class="nav-link js-scroll-trigger lang" href="#projects"
+                       data-pt="Projetos" data-en="Projects">Projetos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger lang" href="#interests"
+                       data-pt="Objetivos" data-en="Goals">Objetivos</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid p-0">
-       <section class="resume-section" id="about">
-    <div class="resume-section-content">
+    <main class="container-fluid p-0">
 
-        <!-- Foto para dispositivos móveis -->
-        <div class="d-block d-lg-none text-center mb-4">
-            <img
-                id="profileImage"
-                src="https://avatars.githubusercontent.com/u/91962241?v=4"
-                alt="Foto de perfil de Benedito Magalhães"
-                class="img-fluid rounded-circle shadow"
-                style="max-width: 150px;"
-            />
-        </div>
+        <!-- ABOUT -->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
 
-        <!-- Nome -->
-        <h1 class="mb-0">
-            Benedito
-            <span class="text-light">Magalhães</span>
-        </h1>
+                <!-- Mobile profile -->
+                <div class="d-block d-lg-none text-center mb-4">
+                    <img
+                        id="profileImage"
+                        src="https://avatars.githubusercontent.com/u/91962241?v=4"
+                        alt="Foto de perfil de Benedito Magalhães"
+                        class="img-fluid rounded-circle shadow"
+                        style="max-width:150px;"
+                    >
+                </div>
 
-        <!-- Contato -->
-        <div class="subheading mb-5" style="color: white;">
-            Campo Grande, MS ·
-            <a
-                href="https://wa.me/5567999965692"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                (67) 99996-5692
-            </a>
-            ·
-            <a
-                href="mailto:bencaceres1799@gmail.com"
-                class="text-light"
-                rel="noopener noreferrer"
-            >
-                bencaceres1799@gmail.com
-            </a>
-        </div>
+                <h1 class="mb-0">
+                    Benedito
+                    <span class="text-light">Magalhães</span>
+                </h1>
 
-        <!-- Introdução -->
-        <p
-            class="lead mb-5 lang"
-            data-pt="Olá, sou Benedito Magalhães, profissional de Tecnologia da Informação, formado em Tecnologia em Sistemas para Internet e pós-graduado em Cibersegurança. Minha trajetória é construída sobre experiência prática em Suporte Técnico, Infraestrutura de TI e desenvolvimento de sistemas, com foco na identificação e resolução de problemas, administração de ambientes corporativos e aplicação de boas práticas de segurança da informação. Atualmente, busco ampliar minha atuação nas áreas de Cibersegurança, Infraestrutura e Suporte Técnico, unindo conhecimento técnico, aprendizado contínuo e visão de segurança para contribuir com ambientes de TI mais eficientes, confiáveis e protegidos."
-            
-            data-en="Hello, I am Benedito Magalhães, an Information Technology professional with a degree in Internet Systems Technology and a postgraduate specialization in Cybersecurity. My career is built on practical experience in Technical Support, IT Infrastructure, and software development, with a focus on troubleshooting, corporate IT environments, and the application of information security best practices. I am currently focused on developing my career in Cybersecurity, IT Infrastructure, and Technical Support, combining technical knowledge, continuous learning, and a security-oriented mindset to contribute to more efficient, reliable, and secure IT environments."
-        >
-        </p>
+                <div class="subheading mb-4" style="color:white;">
+                    <span class="lang"
+                          data-pt="Analista de Suporte | Cibersegurança | Infraestrutura"
+                          data-en="Technical Support Analyst | Cybersecurity | IT Infrastructure">
+                        Analista de Suporte | Cibersegurança | Infraestrutura
+                    </span>
+                </div>
 
-        <!-- Redes sociais -->
-        <div class="social-icons">
-            <a
-                class="social-icon"
-                href="https://www.linkedin.com/in/benedito-magalhães-1a700821b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-            >
-                <i class="fab fa-linkedin-in"></i>
-            </a>
+                <div class="subheading mb-5" style="color:white;">
+                    Campo Grande, MS ·
+                    <a href="https://wa.me/5567999965692"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="WhatsApp de Benedito Magalhães">
+                        (67) 99996-5692
+                    </a>
+                    ·
+                    <a href="mailto:bencaceres1799@gmail.com"
+                       class="text-light"
+                       aria-label="Enviar e-mail para Benedito Magalhães">
+                        bencaceres1799@gmail.com
+                    </a>
+                </div>
 
-            <a
-                class="social-icon"
-                href="https://github.com/BeneditoDev1"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-            >
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
+                <p class="lead mb-5 lang"
+                   data-pt="Olá, sou Benedito Magalhães, profissional de Tecnologia da Informação, formado em Tecnologia em Sistemas para Internet e pós-graduado em Cibersegurança. Possuo experiência prática em Suporte Técnico, Infraestrutura de TI e desenvolvimento de sistemas, atuando com atendimento e resolução de incidentes, administração de ambientes corporativos, Active Directory, GLPI, manutenção de equipamentos e aplicação de boas práticas de segurança da informação. Atualmente, direciono minha carreira para Cibersegurança, Infraestrutura e Suporte Técnico, buscando contribuir para ambientes de TI mais seguros, eficientes e confiáveis."
+                   data-en="Hello, I am Benedito Magalhães, an Information Technology professional with a degree in Internet Systems Technology and a postgraduate specialization in Cybersecurity. I have practical experience in Technical Support, IT Infrastructure, and software development, working with incident resolution, corporate IT environments, Active Directory, GLPI, computer maintenance, and information security best practices. I am currently focused on building my career in Cybersecurity, IT Infrastructure, and Technical Support, contributing to safer, more efficient, and reliable IT environments.">
+                    Olá, sou Benedito Magalhães, profissional de Tecnologia da Informação, formado em Tecnologia em Sistemas para Internet e pós-graduado em Cibersegurança. Possuo experiência prática em Suporte Técnico, Infraestrutura de TI e desenvolvimento de sistemas, atuando com atendimento e resolução de incidentes, administração de ambientes corporativos, Active Directory, GLPI, manutenção de equipamentos e aplicação de boas práticas de segurança da informação. Atualmente, direciono minha carreira para Cibersegurança, Infraestrutura e Suporte Técnico, buscando contribuir para ambientes de TI mais seguros, eficientes e confiáveis.
+                </p>
 
-    </div>
-</section>
+                <div class="social-icons">
+                    <a class="social-icon"
+                       href="https://www.linkedin.com/in/benedito-magalhães-1a700821b/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a class="social-icon"
+                       href="https://github.com/BeneditoDev1"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+            </div>
         </section>
-        <hr class="m-0" />
+
+        <hr class="m-0">
+
+        <!-- EXPERIENCE -->
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
-                <h2 class="mb-5 lang" data-pt="Experiência" data-en="Experience">Experiência</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                <h2 class="mb-5 lang"
+                    data-pt="Experiência Profissional"
+                    data-en="Professional Experience">
+                    Experiência Profissional
+                </h2>
+
+                <!-- InterOp -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0 lang" data-pt="Tecnico em Suporte e Sistemas Jr" data-en="Support Tech Jr">
-                            Tecnico em Suporte N2
+                        <h3 class="mb-0 lang"
+                            data-pt="Analista de Suporte Técnico N2"
+                            data-en="N2 Technical Support Analyst">
+                            Analista de Suporte Técnico N2
                         </h3>
+
                         <div class="subheading mb-3">InterOp</div>
+
                         <p class="lang"
-                            data-pt="Atuação como Analista de Suporte Técnico N2, responsável pelo atendimento e resolução de chamados por meio da ferramenta GLPI, incluindo análise, diagnóstico e escalonamento de incidentes quando necessário. Experiência em gerenciamento de usuários e senhas no Active Directory, controle de acessos e administração de ativos de TI. Realização de manutenção preventiva e corretiva em computadores, além de formatação, instalação e configuração de sistemas operacionais e softwares. Aplicação de boas práticas baseadas em ITIL Foundation v4, com foco em gestão de incidentes, requisições e melhoria contínua dos serviços de TI."
-                            data-en="Worked as a **N2 Technical Support Analyst**, responsible for handling and resolving support tickets through the GLPI platform, including incident analysis, diagnosis, and escalation when necessary. Experienced in user and password management in **Active Directory**, access control, and IT asset administration. Performed preventive and corrective maintenance on computers, as well as formatting, installation, and configuration of operating systems and software. Applied best practices based on **ITIL Foundation v4**, focusing on incident management, service requests, and continuous improvement of IT services.">
+                           data-pt="Atuação como Analista de Suporte Técnico N2, responsável pelo atendimento e resolução de chamados por meio da ferramenta GLPI, incluindo análise, diagnóstico e escalonamento de incidentes quando necessário. Experiência em gerenciamento de usuários e senhas no Active Directory, controle de acessos e administração de ativos de TI. Realização de manutenção preventiva e corretiva em computadores, além de formatação, instalação e configuração de sistemas operacionais e softwares. Aplicação de boas práticas baseadas em ITIL Foundation v4, com foco em gestão de incidentes, requisições e melhoria contínua dos serviços de TI."
+                           data-en="Worked as an N2 Technical Support Analyst, responsible for handling and resolving support tickets through GLPI, including incident analysis, diagnosis, and escalation when necessary. Experienced in user and password management in Active Directory, access control, and IT asset administration. Performed preventive and corrective computer maintenance, as well as operating system and software installation and configuration. Applied ITIL Foundation v4 best practices focused on incident management, service requests, and continuous improvement of IT services.">
                             Atuação como Analista de Suporte Técnico N2, responsável pelo atendimento e resolução de chamados por meio da ferramenta GLPI, incluindo análise, diagnóstico e escalonamento de incidentes quando necessário. Experiência em gerenciamento de usuários e senhas no Active Directory, controle de acessos e administração de ativos de TI. Realização de manutenção preventiva e corretiva em computadores, além de formatação, instalação e configuração de sistemas operacionais e softwares. Aplicação de boas práticas baseadas em ITIL Foundation v4, com foco em gestão de incidentes, requisições e melhoria contínua dos serviços de TI.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Jun 2026 - Atual</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">Jun 2026 - <span class="lang" data-pt="Atual" data-en="Present">Atual</span></span>
+                    </div>
+                </article>
+
+                <!-- Novooeste -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0 lang" data-pt="Tecnico em Suporte e Sistemas Jr" data-en="Support Tech Jr">
-                            Tecnico em Suporte e Sistemas Jr
+                        <h3 class="mb-0 lang"
+                            data-pt="Técnico em Suporte e Sistemas Jr"
+                            data-en="Junior Support and Systems Technician">
+                            Técnico em Suporte e Sistemas Jr
                         </h3>
+
                         <div class="subheading mb-3">Novooeste Sistemas</div>
+
                         <p class="lang"
-                            data-pt="Atendimento ao usuário em 1° nível, registro de solicitações, atendimento de solicitações, acesso remoto, configuração de sistema no servidor, configuração de banco de dados, configuração de Relatórios do sistema, configuração de certificados digitais."
-                            data-en="First-level user support, request registration, request handling, remote access, system configuration on the server, database configuration, system report configuration, digital certificate configuration.">
-                            Atendimento ao usuário em 1° nível, registro de solicitações, atendimento de solicitações, acesso remoto, configuração de sistema no servidor, configuração de banco de dados, configuração de Relatórios do sistema, configuração de certificados digitais.
+                           data-pt="Atendimento ao usuário em primeiro nível, registro e tratamento de solicitações, acesso remoto, configuração de sistemas em servidor, configuração de banco de dados, relatórios do sistema e certificados digitais."
+                           data-en="Provided first-level user support, request registration and handling, remote access, server-side system configuration, database configuration, system report configuration, and digital certificate configuration.">
+                            Atendimento ao usuário em primeiro nível, registro e tratamento de solicitações, acesso remoto, configuração de sistemas em servidor, configuração de banco de dados, relatórios do sistema e certificados digitais.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2025 - Jun 2026</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">Sep 2025 - Jun 2026</span>
+                    </div>
+                </article>
+
+                <!-- Milliontech -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0 lang" data-pt="Analista de Suporte e Sistemas ERP" data-en="ERP Support Analyst">
+                        <h3 class="mb-0 lang"
+                            data-pt="Analista de Suporte e Sistemas ERP"
+                            data-en="ERP Support and Systems Analyst">
                             Analista de Suporte e Sistemas ERP
                         </h3>
+
                         <div class="subheading mb-3">Milliontech Sistemas</div>
+
                         <p class="lang"
-                            data-pt="Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados PostgreSQL."
-                            data-en="I was responsible for the development and implementation of new features in the system, performing bug fixes, support, and testing in the ERP system. I used the JavaScript and TypeScript programming languages, along with React, the Node.js runtime environment, and the PostgreSQL database.">
-                            Atuei como responsável do desenvolvimento e de novas funcionalidades no sistema, realizando
-                            correção de bugs, suporte, teste no sistema ERP. Utilizei a linguagem de programação
-                            JavaScript, Typescript e react, o motor de desenvolvimento NodeJS, também o banco de dados
-                            PostgreSQL.
+                           data-pt="Atuação no desenvolvimento e implementação de novas funcionalidades em sistema ERP, correção de bugs, suporte e testes. Utilização de JavaScript, TypeScript, React, Node.js e PostgreSQL."
+                           data-en="Worked on the development and implementation of new features for an ERP system, bug fixing, support, and testing. Used JavaScript, TypeScript, React, Node.js, and PostgreSQL.">
+                            Atuação no desenvolvimento e implementação de novas funcionalidades em sistema ERP, correção de bugs, suporte e testes. Utilização de JavaScript, TypeScript, React, Node.js e PostgreSQL.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2024 - Apr
-                            2025</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">Sep 2024 - Apr 2025</span>
+                    </div>
+                </article>
+
+                <!-- Inovvati -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0 lang" data-pt="Tecnico em Suporte e Sistemas" data-en="IT Support">
-                            Tecnico em Suporte e Sistemas</h3>
+                        <h3 class="mb-0 lang"
+                            data-pt="Técnico em Suporte e Sistemas"
+                            data-en="IT Support and Systems Technician">
+                            Técnico em Suporte e Sistemas
+                        </h3>
+
                         <div class="subheading mb-3">Inovvati Tecnologia</div>
+
                         <p class="lang"
-                            data-pt="Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos clientes em diferentes situações."
-                            data-en="I was responsible for providing technical support to clients through phone, chat, and email at Inovvati Tecnologia. I created tickets in the ITSM software, provided follow-up, and monitored the progress of the tickets until resolution. Additionally, I supported systems and procedures to ensure operational processes were fully functional. My experience at this company allowed me to develop my communication and problem-solving skills, providing effective support to clients in different situations.">
-                            Atuei como responsável por fornecer suporte técnico aos clientes por meio de atendimento via
-                            telefone, chat e e-mail na Inovvati Tecnologia. Eu abro chamados no software ITSM, forneço
-                            devolutiva e acompanho o andamento dos chamados até a sua resolução. Além disso, ofereço
-                            suporte a sistemas e procedimentos, garantindo que os processos operacionais estejam em
-                            pleno funcionamento. Minha experiência nessa empresa me permite desenvolver minhas
-                            habilidades de comunicação e resolução de problemas, além de fornecer suporte eficaz aos
-                            clientes em diferentes situações.
+                           data-pt="Atendimento técnico a clientes por telefone, chat e e-mail, abertura e acompanhamento de chamados em ferramenta ITSM, devolutivas aos usuários e suporte a sistemas e procedimentos operacionais."
+                           data-en="Provided technical support to customers through phone, chat, and email; created and monitored ITSM tickets, communicated updates to users, and supported systems and operational procedures.">
+                            Atendimento técnico a clientes por telefone, chat e e-mail, abertura e acompanhamento de chamados em ferramenta ITSM, devolutivas aos usuários e suporte a sistemas e procedimentos operacionais.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Jan 2023 - Sep
-                            2024</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">Jan 2023 - Sep 2024</span>
+                    </div>
+                </article>
+
+                <!-- Macal -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-0">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0 lang" data-pt="Estagio em Suporte Técnico" data-en="IT Support intership">
-                            Estagio em Suporte Técnico</h3>
+                        <h3 class="mb-0 lang"
+                            data-pt="Estágio em Suporte Técnico"
+                            data-en="IT Support Internship">
+                            Estágio em Suporte Técnico
+                        </h3>
+
                         <div class="subheading mb-3">Macal Soluções em Agro</div>
+
                         <p class="lang"
-                            data-pt="Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes para os desafios técnicos enfrentados."
-                            data-en="I worked as an IT professional providing technical support to users and performing computer maintenance. I also handled tickets, assisted in building infrastructure, and developed the company intranet using the Joomla 4 platform. My experience at this company allowed me to improve my technical and communication skills, working closely with the team and providing effective solutions to technical challenges.">
-                            Atuei como um profissional de TI proporcionando suporte técnico aos usuários e realizando
-                            manutenção em computadores. Além disso, eu atendia chamados, ajudava na montagem de
-                            infraestruturas e desenvolvia a intranet da empresa usando a plataforma Joomla 4. Minha
-                            experiência nesta empresa me permitiu aperfeiçoar minhas habilidades técnicas e de
-                            comunicação, trabalhando em estreita colaboração com a equipe e fornecendo soluções eficazes
-                            para os desafios técnicos enfrentados.
+                           data-pt="Suporte técnico aos usuários, manutenção de computadores, atendimento de chamados, apoio na montagem de infraestrutura e desenvolvimento da intranet da empresa utilizando Joomla 4."
+                           data-en="Provided technical support to users, performed computer maintenance, handled support tickets, assisted with infrastructure setup, and developed the company's intranet using Joomla 4.">
+                            Suporte técnico aos usuários, manutenção de computadores, atendimento de chamados, apoio na montagem de infraestrutura e desenvolvimento da intranet da empresa utilizando Joomla 4.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-light" style="font-weight: bold;">Sep 2022 - Jan
-                            2023</span></div>
-                </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">Sep 2022 - Jan 2023</span>
+                    </div>
+                </article>
+
             </div>
         </section>
-        <hr class="m-0" />
+
+        <hr class="m-0">
+
+        <!-- EDUCATION -->
         <section class="resume-section" id="education">
             <div class="resume-section-content">
-                <h2 class="mb-5 lang" data-en="Education" data-pt="Educação">Educação</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-    <div class="flex-grow-1">
-        <h3 class="mb-0">Faculdade Metropolitana</h3>
-        <div class="subheading mb-3 lang" data-en="IT Technologist" data-pt="Pós Graduação">Pós Graduação</div>
-        <div>
-            <h3 style="color: white" class="lang" data-en="Cybersecurity" data-pt="Cibersegurança">Cibersegurança</h3>
-        </div>
-        <p class="lang"
-           data-pt="O curso cobre os fundamentos da área, incluindo análise de ameaças, vulnerabilidades e práticas de ethical hacking, além de conceitos avançados de proteção de redes, como protocolos seguros, firewall, IDS/IPS e VPNs. A trilha de aprendizagem inclui criptografia simétrica e assimétrica, gerenciamento de certificados e assinaturas digitais, bem como técnicas de fortalecimento de sistemas operacionais Windows e Linux, com foco em controle de acesso, atualização de patches e políticas de segurança. Também abrange desenvolvimento seguro, utilizando frameworks e metodologias como OWASP, PTES e NIST, estratégias antifraude e gestão de incidentes. Na área de computação em nuvem, a formação aprofunda temas como modelos de cloud, SECaaS, segurança em ambientes AWS e gestão de identidade e acesso. O curso incorpora ainda práticas de DevSecOps, integrando segurança em todo o ciclo de desenvolvimento, além de auditoria, conformidade e normas como ISO 27001 e GDPR. Há enfoque na LGPD, no tratamento de incidentes de vazamento, nos direitos dos titulares e na elaboração de relatórios de impacto. Complementam a formação conteúdos de computação forense, envolvendo coleta e análise de evidências digitais, e gestão de identidade digital, com autenticação, biometria e aplicação de RBAC. O programa se encerra com uma visão sobre tendências da cibersegurança, incluindo IoT, inteligência artificial, blockchain e a evolução das ameaças modernas."
-           data-en="The course covers the fundamentals of the field, including threat analysis, vulnerabilities, and ethical hacking practices, as well as advanced network protection concepts such as secure protocols, firewalls, IDS/IPS, and VPNs. The learning path includes symmetric and asymmetric cryptography, certificate management, and digital signatures, as well as techniques for hardening Windows and Linux operating systems, focusing on access control, patch management, and security policies. It also covers secure development using frameworks and methodologies such as OWASP, PTES, and NIST, anti-fraud strategies, and incident management. In the cloud computing area, the program delves into topics such as cloud models, SECaaS, AWS security, and identity and access management. The course also incorporates DevSecOps practices, integrating security throughout the development lifecycle, along with auditing, compliance, and standards such as ISO 27001 and GDPR. There is an emphasis on LGPD, incident handling, data subject rights, and the preparation of impact reports. The training is complemented by content on digital forensics, including the collection and analysis of digital evidence, and digital identity management, covering authentication, biometrics, and the application of RBAC. The program concludes with an overview of cybersecurity trends, including IoT, artificial intelligence, blockchain, and the evolution of modern threats.">
-            O curso cobre os fundamentos da área, incluindo análise de ameaças, vulnerabilidades e práticas de ethical hacking, além de conceitos avançados de proteção de redes, como protocolos seguros, firewall, IDS/IPS e VPNs.
-        </p>
-    </div>
-                    <div class="flex-shrink-0">
-                    <span class="text-light">
-                    <i class="fas fa-trophy text-warning" style="font-weight: bold;"></i> Nov 2025 - Jun 2026
-                </span>
-            </div>
-        </div>
 
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <h2 class="mb-5 lang"
+                    data-pt="Educação"
+                    data-en="Education">
+                    Educação
+                </h2>
+
+                <!-- Postgraduate -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Instituto Federal do Mato Grosso do Sul</h3>
-                        <div class="subheading mb-3 lang" data-en="IT Technologist" data-pt="Tecnologo em TI">Tecnologo
-                            em TI</div>
-                        <div>
-                            <h3 style="color: white" class="lang" data-en="Web Development"
-                                data-pt="Tecnologia em Sistemas para Internet">Tecnologia em Sistemas para Internet</h3>
+                        <h3 class="mb-0">Faculdade Metropolitana</h3>
+
+                        <div class="subheading mb-3 lang"
+                             data-pt="Pós-graduação"
+                             data-en="Postgraduate Specialization">
+                            Pós-graduação
                         </div>
+
+                        <h3 style="color:white;" class="lang"
+                            data-pt="Cibersegurança"
+                            data-en="Cybersecurity">
+                            Cibersegurança
+                        </h3>
+
                         <p class="lang"
-                            data-pt="Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software. Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua."
-                            data-en="System Development, Web and Android Systems, SQL and PLSQL Databases, Computer Networks and Infrastructure, Operating Systems, Information Security, Administrative Topics, Scientific Methodology, Digital Logic, Brazilian Sign Language (Libras), and Software Engineering. Additionally, we learned about Interface Design, Software Architecture, Cloud Computing, Artificial Intelligence, Development Frameworks, and Mobile Application Development, as well as agile development practices and continuous integration.">
-                            Desenvolvimento de Sistemas, Sistemas Web e Android, Banco de dados SQL e PLSQL, Redes de
-                            Computadores e Infraestrutura, Sistemas Operacionais, Segurança da Informação, Tópicos
-                            Administrativos, Metodologia Científica, Lógica Digital, Libras e Engenharia de Software.
-                            Além disso, aprendemos sobre Design de Interfaces, Arquitetura de Software, Computação em
-                            Nuvem, Inteligência Artificial, Frameworks de Desenvolvimento, e Desenvolvimento de
-                            Aplicações Móveis, além de práticas de desenvolvimento ágil e integração contínua.
+                           data-pt="Formação com conteúdos de análise de ameaças e vulnerabilidades, ethical hacking, segurança de redes, firewall, IDS/IPS, VPN, criptografia, certificados digitais, hardening de Windows e Linux, OWASP, NIST, gestão de incidentes, segurança em AWS, IAM, DevSecOps, auditoria, conformidade, ISO 27001, GDPR, LGPD, computação forense e gestão de identidade digital."
+                           data-en="Training covering threat and vulnerability analysis, ethical hacking, network security, firewalls, IDS/IPS, VPNs, cryptography, digital certificates, Windows and Linux hardening, OWASP, NIST, incident management, AWS security, IAM, DevSecOps, auditing, compliance, ISO 27001, GDPR, LGPD, digital forensics, and digital identity management.">
+                            Formação com conteúdos de análise de ameaças e vulnerabilidades, ethical hacking, segurança de redes, firewall, IDS/IPS, VPN, criptografia, certificados digitais, hardening de Windows e Linux, OWASP, NIST, gestão de incidentes, segurança em AWS, IAM, DevSecOps, auditoria, conformidade, ISO 27001, GDPR, LGPD, computação forense e gestão de identidade digital.
                         </p>
                     </div>
-                    <div class="flex-shrink-0 "><span class="text-light"><i class="fas fa-trophy text-warning"
-                                style="font-weight: bold;"></i> Ago 2021 - Fev 2025</span></div>
-                </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">
+                            <i class="fas fa-graduation-cap text-warning me-1"></i>
+                            Nov 2025 - Jun 2026
+                        </span>
+                    </div>
+                </article>
+
+                <!-- Graduation -->
+                <article class="d-flex flex-column flex-md-row justify-content-between mb-0">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Instituto Federal de Mato Grosso do Sul</h3>
+
+                        <div class="subheading mb-3 lang"
+                             data-pt="Tecnólogo em TI"
+                             data-en="IT Technologist">
+                            Tecnólogo em TI
+                        </div>
+
+                        <h3 style="color:white;" class="lang"
+                            data-pt="Tecnologia em Sistemas para Internet"
+                            data-en="Internet Systems Technology">
+                            Tecnologia em Sistemas para Internet
+                        </h3>
+
+                        <p class="lang"
+                           data-pt="Formação em desenvolvimento de sistemas e aplicações web, bancos de dados SQL e PL/SQL, redes e infraestrutura, sistemas operacionais, segurança da informação, engenharia de software, computação em nuvem, inteligência artificial, desenvolvimento mobile, arquitetura de software e metodologias ágeis."
+                           data-en="Degree focused on system and web application development, SQL and PL/SQL databases, networks and infrastructure, operating systems, information security, software engineering, cloud computing, artificial intelligence, mobile development, software architecture, and agile methodologies.">
+                            Formação em desenvolvimento de sistemas e aplicações web, bancos de dados SQL e PL/SQL, redes e infraestrutura, sistemas operacionais, segurança da informação, engenharia de software, computação em nuvem, inteligência artificial, desenvolvimento mobile, arquitetura de software e metodologias ágeis.
+                        </p>
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-light fw-bold">
+                            <i class="fas fa-graduation-cap text-warning me-1"></i>
+                            Ago 2021 - Fev 2025
+                        </span>
+                    </div>
+                </article>
+
             </div>
         </section>
-        <hr class="m-0" />
+
+        <hr class="m-0">
+
+        <!-- SKILLS -->
         <section class="resume-section text-light" id="skills">
-    <div class="resume-section-content">
-
-    <h2 class="mb-5 lang"
-        data-en="Skills"
-        data-pt="Habilidades">
-        Habilidades
-    </h2>
-
-    <!-- ==================== SUPORTE E INFRAESTRUTURA ==================== -->
-    <div class="subheading mb-3 lang"
-        data-en="IT Support & Infrastructure"
-        data-pt="Suporte e Infraestrutura de TI">
-        Suporte e Infraestrutura de TI
-    </div>
-
-    <ul class="fa-ul mb-5">
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="N2 Technical Support"
-                data-pt="Suporte Técnico N2">
-                Suporte Técnico N2
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="Active Directory"
-                data-pt="Active Directory">
-                Active Directory
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="Windows and Linux"
-                data-pt="Windows e Linux">
-                Windows e Linux
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="IT Asset Management"
-                data-pt="Administração de Ativos de TI">
-                Administração de Ativos de TI
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="Incident and Service Request Management"
-                data-pt="Gestão de Incidentes e Requisições">
-                Gestão de Incidentes e Requisições
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="GLPI and ITSM"
-                data-pt="GLPI e ITSM">
-                GLPI e ITSM
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="ITIL Foundation v4"
-                data-pt="ITIL Foundation v4">
-                ITIL Foundation v4
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="Computer Maintenance and Troubleshooting"
-                data-pt="Manutenção e Troubleshooting de Computadores">
-                Manutenção e Troubleshooting de Computadores
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            <span class="lang"
-                data-en="TCP/IP, DNS and DHCP"
-                data-pt="TCP/IP, DNS e DHCP">
-                TCP/IP, DNS e DHCP
-            </span>
-        </li>
-    </ul>
-
-
-    <!-- ==================== CIBERSEGURANÇA ==================== -->
-    <div class="subheading mb-3 lang"
-        data-en="Cybersecurity"
-        data-pt="Cibersegurança">
-        Cibersegurança
-    </div>
-
-    <ul class="fa-ul mb-5">
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Vulnerability Analysis"
-                data-pt="Análise de Vulnerabilidades">
-                Análise de Vulnerabilidades
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Network Security"
-                data-pt="Segurança de Redes">
-                Segurança de Redes
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Security Hardening"
-                data-pt="Hardening de Sistemas">
-                Hardening de Sistemas
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Access Control and IAM"
-                data-pt="Controle de Acesso e IAM">
-                Controle de Acesso e IAM
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Incident Management"
-                data-pt="Gestão de Incidentes">
-                Gestão de Incidentes
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="LGPD and Information Security"
-                data-pt="LGPD e Segurança da Informação">
-                LGPD e Segurança da Informação
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="OWASP and Secure Development"
-                data-pt="OWASP e Desenvolvimento Seguro">
-                OWASP e Desenvolvimento Seguro
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-shield-halved"></i></span>
-            <span class="lang"
-                data-en="Security Fundamentals in AWS"
-                data-pt="Fundamentos de Segurança em AWS">
-                Fundamentos de Segurança em AWS
-            </span>
-        </li>
-    </ul>
-
-    <div class="subheading mb-3 lang"
-        data-en="Cybersecurity Tools"
-        data-pt="Ferramentas de Cibersegurança">
-        Ferramentas de Cibersegurança
-    </div>
-
-    <ul class="list-inline dev-icons mb-5">
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original-wordmark.svg"
-                alt="Kali Linux"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <span class="badge bg-dark p-3">Nmap</span>
-        </li>
-
-        <li class="list-inline-item">
-            <span class="badge bg-dark p-3">Burp Suite</span>
-        </li>
-
-        <li class="list-inline-item">
-            <span class="badge bg-dark p-3">Maltego</span>
-        </li>
-
-        <li class="list-inline-item">
-            <span class="badge bg-dark p-3">VirusTotal</span>
-        </li>
-
-        <li class="list-inline-item">
-            <span class="badge bg-dark p-3">Osints</span>
-        </li>
-    </ul>
-
-
-    <!-- ==================== DESENVOLVIMENTO ==================== -->
-    <div class="subheading mb-3 lang"
-        data-en="Development"
-        data-pt="Desenvolvimento">
-        Desenvolvimento
-    </div>
-
-    <ul class="list-inline dev-icons mb-5">
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                alt="Python"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="Node.js"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-                alt="TypeScript"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                alt="React"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-                alt="Spring"
-                height="70"
-                width="90">
-        </li>
-
-        <li class="list-inline-item">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-                alt="Laravel"
-                height="70"
-                width="90">
-        </li>
-
-    </ul>
-
-
-    <!-- ==================== BANCO DE DADOS ==================== -->
-    <div class="subheading mb-3 lang"
-        data-en="Databases"
-        data-pt="Banco de Dados">
-        Banco de Dados
-    </div>
-
-    <ul class="fa-ul mb-5">
-
-        <li>
-            <span class="fa-li"><i class="fas fa-database"></i></span>
-            <span class="lang"
-                data-en="PostgreSQL"
-                data-pt="PostgreSQL">
-                PostgreSQL
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-database"></i></span>
-            <span class="lang"
-                data-en="MySQL"
-                data-pt="MySQL">
-                MySQL
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-database"></i></span>
-            <span class="lang"
-                data-en="SQL"
-                data-pt="SQL">
-                SQL
-            </span>
-        </li>
-
-    </ul>
-
-
-    <!-- ==================== IDIOMAS ==================== -->
-    <div class="subheading mb-3 lang"
-        data-en="Languages"
-        data-pt="Idiomas">
-        Idiomas
-    </div>
-
-    <ul class="fa-ul mb-0">
-
-        <li>
-            <span class="fa-li"><i class="fas fa-language"></i></span>
-            <span class="lang"
-                data-en="Native Portuguese"
-                data-pt="Português Nativo">
-                Português Nativo
-            </span>
-        </li>
-
-        <li>
-            <span class="fa-li"><i class="fas fa-language"></i></span>
-            <span class="lang"
-                data-en="Intermediate English (B2)"
-                data-pt="Inglês Intermediário (B2)">
-                Inglês Intermediário (B2)
-            </span>
-        </li>
-
-    </ul>
-
-</div>
-```
-
-</section>
-
-        <hr class="m-0" />
-        <section class="resume-section" id="interests">
             <div class="resume-section-content">
-                <h2 class="mb-5 lang" data-en="Interests" data-pt="Interesses">Interesses</h2>
-                <p class="lang"
-                    data-pt="Sou profissional de Tecnologia da Informação, formado em Tecnologia em Sistemas para Internet e pós-graduado em Cibersegurança, apaixonado por tecnologia desde os 11 anos. Tenho experiência e interesse principalmente nas áreas de Suporte Técnico, Infraestrutura de TI e Cibersegurança, buscando atuar na identificação, análise e resolução de problemas, na manutenção de ambientes tecnológicos e na implementação de boas práticas de segurança.
-Possuo conhecimentos em suporte a usuários, administração de ambientes e ativos de TI, Active Directory, sistemas operacionais, redes, bancos de dados e ferramentas de gerenciamento de chamados. Também tenho experiência com desenvolvimento de software e conhecimentos em tecnologias como JavaScript, TypeScript, Node.js e Java, além de interesse em Inteligência Artificial, automação e novas tecnologias aplicadas à área de TI.
-Meu principal objetivo é continuar evoluindo profissionalmente em Cibersegurança, Infraestrutura e Suporte, ampliando meus conhecimentos em segurança da informação, redes, sistemas e proteção de ambientes corporativos. Sou movido pela curiosidade, aprendizado contínuo e pela busca de soluções eficientes para problemas reais."
-                    data-en="I am an Information Technology professional with a degree in Internet Systems Technology and a postgraduate specialization in Cybersecurity. I have been passionate about technology since I was 11 years old and have a strong interest in Technical Support, IT Infrastructure, and especially Cybersecurity.
-I have experience and knowledge in user support, IT asset management, Active Directory, operating systems, networks, databases, and ticket management tools. I am interested in identifying, analyzing, and solving technical problems, maintaining reliable IT environments, and applying security best practices to protect systems and corporate infrastructure.
-I also have a background in software development, with knowledge of technologies such as JavaScript, TypeScript, Node.js, and Java. In addition, I am interested in Artificial Intelligence, automation, and emerging technologies that can improve IT operations and cybersecurity.
-My main goal is to continue developing my career in Cybersecurity, IT Infrastructure, and Technical Support, expanding my knowledge of information security, networks, systems, and corporate environment protection. I am driven by curiosity, continuous learning, and the pursuit of efficient solutions to real-world problems.">
-                    Sou profissional de Tecnologia da Informação, formado em Tecnologia em Sistemas para Internet e pós-graduado em Cibersegurança, apaixonado por tecnologia desde os 11 anos. Tenho experiência e interesse principalmente nas áreas de Suporte Técnico, Infraestrutura de TI e Cibersegurança, buscando atuar na identificação, análise e resolução de problemas, na manutenção de ambientes tecnológicos e na implementação de boas práticas de segurança.
 
-Possuo conhecimentos em suporte a usuários, administração de ambientes e ativos de TI, Active Directory, sistemas operacionais, redes, bancos de dados e ferramentas de gerenciamento de chamados. Também tenho experiência com desenvolvimento de software e conhecimentos em tecnologias como JavaScript, TypeScript, Node.js e Java, além de interesse em Inteligência Artificial, automação e novas tecnologias aplicadas à área de TI.
+                <h2 class="mb-5 lang"
+                    data-pt="Habilidades"
+                    data-en="Skills">
+                    Habilidades
+                </h2>
 
-Meu principal objetivo é continuar evoluindo profissionalmente em Cibersegurança, Infraestrutura e Suporte, ampliando meus conhecimentos em segurança da informação, redes, sistemas e proteção de ambientes corporativos. Sou movido pela curiosidade, aprendizado contínuo e pela busca de soluções eficientes para problemas reais.
-                </p>
+                <!-- Support -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Suporte e Infraestrutura de TI"
+                     data-en="IT Support & Infrastructure">
+                    Suporte e Infraestrutura de TI
+                </div>
+
+                <ul class="fa-ul mb-5">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Suporte Técnico N2" data-en="N2 Technical Support">Suporte Técnico N2</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Active Directory" data-en="Active Directory">Active Directory</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Windows e Linux" data-en="Windows and Linux">Windows e Linux</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Administração de Ativos de TI" data-en="IT Asset Management">Administração de Ativos de TI</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Gestão de Incidentes e Requisições" data-en="Incident and Service Request Management">Gestão de Incidentes e Requisições</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="GLPI e ITSM" data-en="GLPI and ITSM">GLPI e ITSM</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="ITIL Foundation v4" data-en="ITIL Foundation v4">ITIL Foundation v4</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="Manutenção e Troubleshooting" data-en="Maintenance and Troubleshooting">Manutenção e Troubleshooting</span></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><span class="lang" data-pt="TCP/IP, DNS e DHCP" data-en="TCP/IP, DNS and DHCP">TCP/IP, DNS e DHCP</span></li>
+                </ul>
+
+                <!-- Cybersecurity -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Cibersegurança"
+                     data-en="Cybersecurity">
+                    Cibersegurança
+                </div>
+
+                <ul class="fa-ul mb-5">
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Análise de Vulnerabilidades" data-en="Vulnerability Analysis">Análise de Vulnerabilidades</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Segurança de Redes" data-en="Network Security">Segurança de Redes</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Hardening de Sistemas" data-en="System Hardening">Hardening de Sistemas</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Controle de Acesso e IAM" data-en="Access Control and IAM">Controle de Acesso e IAM</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Gestão de Incidentes" data-en="Incident Management">Gestão de Incidentes</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="LGPD e Segurança da Informação" data-en="LGPD and Information Security">LGPD e Segurança da Informação</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="OWASP e Desenvolvimento Seguro" data-en="OWASP and Secure Development">OWASP e Desenvolvimento Seguro</span></li>
+                    <li><span class="fa-li"><i class="fas fa-shield-halved"></i></span><span class="lang" data-pt="Fundamentos de Segurança em AWS" data-en="AWS Security Fundamentals">Fundamentos de Segurança em AWS</span></li>
+                </ul>
+
+                <!-- Cybersecurity tools -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Ferramentas de Cibersegurança"
+                     data-en="Cybersecurity Tools">
+                    Ferramentas de Cibersegurança
+                </div>
+
+                <ul class="list-inline dev-icons mb-5">
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original-wordmark.svg"
+                             alt="Kali Linux" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item"><span class="badge bg-dark p-3">Nmap</span></li>
+                    <li class="list-inline-item"><span class="badge bg-dark p-3">Burp Suite</span></li>
+                    <li class="list-inline-item"><span class="badge bg-dark p-3">Maltego</span></li>
+                    <li class="list-inline-item"><span class="badge bg-dark p-3">VirusTotal</span></li>
+                    <li class="list-inline-item"><span class="badge bg-dark p-3">OSINT</span></li>
+                </ul>
+
+                <!-- Development -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Desenvolvimento"
+                     data-en="Development">
+                    Desenvolvimento
+                </div>
+
+                <ul class="list-inline dev-icons mb-5">
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring" height="60" width="80">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" height="60" width="80">
+                    </li>
+                </ul>
+
+                <!-- Databases -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Banco de Dados"
+                     data-en="Databases">
+                    Banco de Dados
+                </div>
+
+                <ul class="fa-ul mb-5">
+                    <li><span class="fa-li"><i class="fas fa-database"></i></span>PostgreSQL</li>
+                    <li><span class="fa-li"><i class="fas fa-database"></i></span>MySQL</li>
+                    <li><span class="fa-li"><i class="fas fa-database"></i></span>SQL</li>
+                </ul>
+
+                <!-- Languages -->
+                <div class="subheading mb-3 lang"
+                     data-pt="Idiomas"
+                     data-en="Languages">
+                    Idiomas
+                </div>
+
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-language"></i></span>
+                        <span class="lang" data-pt="Português Nativo" data-en="Native Portuguese">Português Nativo</span>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-language"></i></span>
+                        <span class="lang" data-pt="Inglês Intermediário (B2)" data-en="Intermediate English (B2)">Inglês Intermediário (B2)</span>
+                    </li>
+                </ul>
+
             </div>
         </section>
-    </div>
-    <hr class="m-0" />
-    <footer style="text-align: right;">&copy;Benedito Magalhães - 2026</footer>
-    </div>
-</body>
 
+        <hr class="m-0">
+
+        <!-- PROJECTS -->
+        <section class="resume-section" id="projects">
+            <div class="resume-section-content">
+
+                <h2 class="mb-5 lang"
+                    data-pt="Projetos e Aplicações"
+                    data-en="Projects & Applications">
+                    Projetos e Aplicações
+                </h2>
+
+                <article class="mb-5">
+                    <h3 class="mb-2">MillionTech ERP</h3>
+                    <div class="subheading mb-3">
+                        React · TypeScript · Node.js · PostgreSQL
+                    </div>
+                    <p class="lang"
+                       data-pt="Experiência prática no desenvolvimento e manutenção de funcionalidades para sistema ERP, incluindo correção de bugs, testes, integração entre componentes e suporte técnico."
+                       data-en="Practical experience developing and maintaining features for an ERP system, including bug fixing, testing, component integration, and technical support.">
+                        Experiência prática no desenvolvimento e manutenção de funcionalidades para sistema ERP, incluindo correção de bugs, testes, integração entre componentes e suporte técnico.
+                    </p>
+                </article>
+
+                <article class="mb-5">
+                    <h3 class="mb-2 lang"
+                        data-pt="SGAC — Sistema de Gerenciamento de Atividades Complementares"
+                        data-en="SGAC — Complementary Activities Management System">
+                        SGAC — Sistema de Gerenciamento de Atividades Complementares
+                    </h3>
+                    <div class="subheading mb-3">
+                        PHP · Laravel · PostgreSQL
+                    </div>
+                    <p class="lang"
+                       data-pt="Projeto acadêmico voltado ao gerenciamento de atividades complementares, desenvolvido com arquitetura web e banco de dados PostgreSQL."
+                       data-en="Academic project focused on managing complementary academic activities, developed as a web application using PostgreSQL.">
+                        Projeto acadêmico voltado ao gerenciamento de atividades complementares, desenvolvido com arquitetura web e banco de dados PostgreSQL.
+                    </p>
+
+                    <div class="mt-3">
+                        <a class="btn btn-outline-light"
+                           href="https://github.com/BeneditoDev1/SGAC-TCC"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fab fa-github me-2"></i>
+                            <span class="lang" data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="mb-0">
+                    <h3 class="mb-2 lang"
+                        data-pt="Portfólio Profissional"
+                        data-en="Professional Portfolio">
+                        Portfólio Profissional
+                    </h3>
+                    <div class="subheading mb-3">
+                        HTML · CSS · JavaScript · Bootstrap
+                    </div>
+                    <p class="lang"
+                       data-pt="Portfólio desenvolvido para apresentar experiência profissional, formação acadêmica, competências técnicas e direcionamento de carreira em Suporte, Infraestrutura e Cibersegurança."
+                       data-en="Portfolio developed to present professional experience, education, technical skills, and career direction in Technical Support, Infrastructure, and Cybersecurity.">
+                        Portfólio desenvolvido para apresentar experiência profissional, formação acadêmica, competências técnicas e direcionamento de carreira em Suporte, Infraestrutura e Cibersegurança.
+                    </p>
+
+                    <div class="mt-3">
+                        <a class="btn btn-outline-light"
+                           href="https://github.com/BeneditoDev1"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fab fa-github me-2"></i>
+                            <span class="lang" data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- GOALS -->
+        <section class="resume-section text-light" id="interests">
+            <div class="resume-section-content">
+
+                <h2 class="mb-5 lang"
+                    data-pt="Objetivos Profissionais"
+                    data-en="Professional Goals">
+                    Objetivos Profissionais
+                </h2>
+
+                <p class="lead lang"
+                   data-pt="Meu objetivo é continuar evoluindo profissionalmente em Cibersegurança, Infraestrutura e Suporte Técnico, ampliando minha experiência em ambientes corporativos, redes, sistemas, gestão de acessos e proteção da informação."
+                   data-en="My goal is to continue developing professionally in Cybersecurity, IT Infrastructure, and Technical Support, expanding my experience with corporate environments, networks, systems, access management, and information protection.">
+                    Meu objetivo é continuar evoluindo profissionalmente em Cibersegurança, Infraestrutura e Suporte Técnico, ampliando minha experiência em ambientes corporativos, redes, sistemas, gestão de acessos e proteção da informação.
+                </p>
+
+                <p class="lang"
+                   data-pt="Também mantenho interesse em desenvolvimento de software, automação e Inteligência Artificial, buscando utilizar essas áreas como ferramentas complementares para solucionar problemas e melhorar processos de TI."
+                   data-en="I also maintain an interest in software development, automation, and Artificial Intelligence, using these areas as complementary tools to solve problems and improve IT processes.">
+                    Também mantenho interesse em desenvolvimento de software, automação e Inteligência Artificial, buscando utilizar essas áreas como ferramentas complementares para solucionar problemas e melhorar processos de TI.
+                </p>
+
+                <p class="lang"
+                   data-pt="Sou movido por curiosidade, aprendizado contínuo e resolução de problemas reais. Busco oportunidades nas quais possa aplicar minha experiência prática, desenvolver novas competências e contribuir para ambientes tecnológicos mais seguros, eficientes e confiáveis."
+                   data-en="I am driven by curiosity, continuous learning, and solving real-world problems. I am looking for opportunities where I can apply my practical experience, develop new skills, and contribute to safer, more efficient, and reliable technology environments.">
+                    Sou movido por curiosidade, aprendizado contínuo e resolução de problemas reais. Busco oportunidades nas quais possa aplicar minha experiência prática, desenvolver novas competências e contribuir para ambientes tecnológicos mais seguros, eficientes e confiáveis.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <hr class="m-0">
+
+    <footer class="py-4 px-4 text-end">
+        &copy; Benedito Magalhães - 2026
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Project JS -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Small accessibility/helper layer for language switching -->
+    <script>
+        function setLanguage(language) {
+            const elements = document.querySelectorAll('.lang');
+
+            elements.forEach(element => {
+                const text = element.getAttribute(`data-${language}`);
+
+                if (text !== null) {
+                    element.textContent = text;
+                }
+            });
+
+            document.documentElement.lang = language === 'pt' ? 'pt-BR' : 'en';
+
+            try {
+                localStorage.setItem('portfolioLanguage', language);
+            } catch (error) {
+                // Ignore storage restrictions.
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            let language = 'pt';
+
+            try {
+                const savedLanguage = localStorage.getItem('portfolioLanguage');
+                if (savedLanguage === 'pt' || savedLanguage === 'en') {
+                    language = savedLanguage;
+                }
+            } catch (error) {
+                // Keep Portuguese as default.
+            }
+
+            setLanguage(language);
+        });
+    </script>
+
+</body>
 </html>
